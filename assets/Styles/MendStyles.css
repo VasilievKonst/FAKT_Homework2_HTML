@@ -1,0 +1,9 @@
+table, td{
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    vertical-align: middle;
+}
