@@ -7,3 +7,7 @@ table, td{
 img{
     vertical-align: middle;
 }
+
+caption{
+    margin-bottom: 3px;
+}
