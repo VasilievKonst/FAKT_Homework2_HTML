@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="login">Имя пользователя
+            <input type="text" name="login" id="login"><br>
+        </label>
+        <label for="mail">E-mail
+            <input type="email" name="email" required id="mail"><br>
+        </label>
+        <label for="lang">Что вы изучаете?
+            <select name="spisok" id="lang">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="php">PHP</option>
+                <option value="bitrix">Bitrix</option>
+            </select>
+        </label><br>
+        <fieldset>
+            <legend>Хочу быть...</legend>
+                <input type="radio" name="var" value="yes">Junior PHP Developer
+                <input type="radio" name="var" value="yes">Middle PHP Developer
+                <input type="radio" name="var" value="yes">Front-end Developer
+                <input type="radio" name="var" value="yes">Не, хочу быть дизайнером
+        </fieldset>
+        <fieldset>
+            <legend>Мои навыки в программировании</legend>
+                <input type="checkbox" name="check" value="god">Бог программирования
+                <input type="checkbox" name="check" value="god">Гуру программирования
+                <input type="checkbox" name="check" value="god">Эм...я еще учусь
+        </fieldset>
+        <label for="data">Во сколько мне удобно приходить на занятие:
+            <input type="time" id="data">
+        </label><br>
+        <label for="comm" id="text">Пожелания и комментарии
+            <textarea name="comment" id="text"></textarea><br>
+        </label>
+        <input type="submit" value="Отправить">
+</body>
+</html>

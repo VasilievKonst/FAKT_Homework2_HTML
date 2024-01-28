@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+.one, .two, .three, .four{
+    width: 300px;
+    height: 250px;
+    vertical-align: middle;
+    margin: 50px;
+
+}
+.one{
+    transform: rotate(30deg);
+}
+
+.two{
+    transform: scale(0.5);
+}
+
+.three{
+    transform: skew(30deg);
+}
+
+.four{
+    transform: translate(50px, 100px);
+}
